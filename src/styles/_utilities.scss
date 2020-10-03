@@ -1,0 +1,45 @@
+// SPACING
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+// TYPOGRAPHY
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+// COMPONENTS
+.button {
+    appearance: none;
+    display: inline-block;
+    min-width: 100px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    color: $black;
+    background: $white;
+    border: 2px solid;
+    transition: border-radius 0.4s, color 0.4s;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        outline: none;
+        border-radius: 20px;
+        color: $primary;
+    }
+
+    // Small
+    &.small {
+        padding: 0.2rem 1rem 0.25rem;
+        font-size: 0.875em;
+    }
+}

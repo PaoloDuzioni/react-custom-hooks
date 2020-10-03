@@ -1,0 +1,19 @@
+@import '../../styles/vars';
+
+.Form {
+    input {
+        width: 100%;
+        line-height: 50px;
+        font-family: inherit;
+        font-size: 1em;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        background: $white;
+        transition: border 0.4s;
+        &:hover,
+        &:focus {
+            outline: none;
+            border-color: $black;
+        }
+    }
+}

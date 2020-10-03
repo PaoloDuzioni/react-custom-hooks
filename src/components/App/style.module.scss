@@ -1,0 +1,43 @@
+@import '../../styles/vars';
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    h1 {
+        text-align: center;
+    }
+}
+
+.Container {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.Col {
+    flex-basis: 100%;
+}
+
+.BottomSvg {
+    height: 200px;
+    path {
+        fill: $primary;
+    }
+}
+
+// TABLET
+@media screen and (min-width: 768px) {
+    .Col {
+        flex-basis: 45%;
+    }
+
+    .BottomSvg {
+        height: 400px;
+    }
+}
