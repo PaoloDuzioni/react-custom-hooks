@@ -4,6 +4,8 @@ Demo for defining our own custom hooks.
 
 ![React Custom Hooks](./src/assets/preview.png)
 
+[Live Demo](https://pd-react-custom-hooks.netlify.app/)
+
 ## Custom Hooks
 
 1. **useInput** get and set values for form inputs using `useState` and `onChange` event.
